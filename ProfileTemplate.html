@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="images/favicon.ico">
+</div>
+
+<col>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+.dropbtn {
+
+  background-color: black;
+
+  color: blue;
+
+  padding: 16px;
+
+  font-size: 16px;
+
+  border: none;
+
+}
+
+ 
+
+.dropdown {
+
+  position: relative;
+
+  display: inline-block;
+
+}
+
+ 
+
+.dropdown-content {
+
+  display: none;
+
+  position: absolute;
+
+  background-color: blue;
+
+  min-width: 160px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  z-index: 1;
+
+}
+
+ 
+
+.dropdown-content a {
+
+  color: black;
+
+  padding: 12px 16px;
+
+  text-decoration: none;
+
+  display: block;
+
+}
+
+ 
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+ 
+
+.dropdown:hover .dropdown-content {display: block;}
+
+ 
+
+.dropdown:hover .dropbtn {background-color: silver;}
+
+</style>
+
+</head>
+
+<body style="background-color:black;">
+
+ 
+
+<div class="dropdown">
+
+  <button class="dropbtn">shortcut</button>
+
+  <div class="dropdown-content">
+
+    <a href="Our locations.html">Our Locations</a>
+
+    <a href="whats nearby.html">whats nearby</a>
+
+    <a href="ProfileTemplate.html">home page</a>
+
+  </div> 
+<! an angle bracket with an exclamation mark allows you to put in comments, meaning the computer doesnt read this line>
+<! comments are used to allow you to go describe parts of the code that may be complex or unclear>
+
+<head>   <! the head section provides details about the WHOLE page>
+<title>Beach Side Bungalo's</title>
+<! the style section within the head controls what the items on the page look like. Dont put comments in here because things will break.>
+<style>  
+.bgbanner {
+    position: relative;
+    top: 0;
+    left: 0;
+	object-fit:cover;}	
+
+.profilepic { 
+	position: absolute;
+    top: -95px;
+    left: 30px;
+	border-radius: 50%;
+	border: 10px solid;
+	border-color: white;}
+	
+body {background-color: black;}
+
+h1   {color: blue;}
+
+p    {color: white; font-weight:bold;}
+	
+table {
+  border-style: solid;
+  border-color: blue;}
+  
+</style>  <! the slash / before the word style means it is the end of that attribute>
+</head>  <! the / before the head means the section is finished>
+
+<body>  <! the body section is the actual items you will have on the page>
+
+<table width="100%"> <! the table attribute creates a table.>
+<tr width="100%"> <! tr means table row>
+<td width="100%"> <img class="bgbanner" align="center" src="images/hcb.jpg"  alt="This is a bg photo" style="width:100%;height:150px"></td> <! td means table data, it creates a new column>
+</tr> <!this ends the first row. The next tag creates a new row>
+<tr>
+<td width="35%" style="position:absolute" > <img class="profilepic" align="right" src="images/download.jpg"  alt="This is a photo of me" height="170" width="200"></td>
+</tr>
+</table>
+
+<table style="width:100%" bgcolor="black" > <! This is the blue table>
+<tr>
+<td width="100%" height="120px" align="right" style="padding-right: 180px;vertical-align:middle"> <h1 style="color:blue"> The Best SA GetAway </td>
+</tr>
+</table>
+
+<br>
+
+<table style="width:100%" bgcolor="black"> <! This is the green table>
+<tr id="top" style="text-align:center">                   
+<td width="33%"> <a href="ProfileTemplate.html"> <img src="images/mpp.png" alt="HOOOOME PAGE" height="40" width="366"></a></td>
+<td width="33%"> <a href="whats nearby.html"> <h1>Whats Nearby</h1></a></td>
+<td width="33%"> <a href="Our Locations.html"><img src="images/our locations.png" alt="HOOOOME PAGE" height="40" width="366"></a></td>
+</tr>
+</table>
+
+<br>
+
+<table style="width:100%" bgcolor="black" > <!This is the yellow table>
+<tr>
+<td width="50%" align="center"> <img id="#rcorners1" src="images/pizza.jpg" alt="This is a photo of moo oink quack" height="300" width="529"></td>
+<! you can also control individual elements within the page using the style attribute in line like below>
+<td width="50%" style="text-align:center;vertical-align:bottom"> <p style="color:grey"> This is the most reliable servoice around Adelaide. <br>Look how cool the views are!!! <br> If you want to come book with us.<br><p style="font-size:100px">&#128525</p>	
+<p style="color:black">If your visiting the area, we have you covered for the best, most relaxing and beachside position for the perfect SA GetAway</p></td>
+</tr>
+</table>
+
+<br>
+
+<table style="width:100%" bgcolor="Fuchsia "> <!This is the bottom purple table>
+<tr>
+<td width="55%" style="text-align:right;padding-right: 20px">Follow me at:</a> </td>
+<td width="15%"><a>@IDK</a></td>
+<td width="15%"><a>@WASSUP</a></td>
+<td width="15%"><a>@ParentalGuidenceIsRecomendedForViewersUnder15Years</a></td>
+</tr>
+<table>
+
+</body>
+</html>
